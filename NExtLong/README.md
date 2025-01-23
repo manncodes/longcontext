@@ -1,7 +1,9 @@
-## NExtLong: Toward Effective Long-Context Training without Long Documents
+# NExtLong: Toward Effective Long-Context Training without Long Documents
 
 This repository contains the code ,models and datasets for our paper [NExtLong: Toward Effective Long-Context Training without Long Documents](https://arxiv.org/pdf/2501.12766).
 
+## &#x1F389; Ranked 1st among LLMs under 10B
+<img width="1350" alt="image" src="https://github.com/user-attachments/assets/97909375-cef6-4ded-8bdb-d801693556e2" />
 
 
 ## Quick Links
