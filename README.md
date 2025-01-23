@@ -1,4 +1,4 @@
-# longcontext
+# Long-context Post-Training of Large Language Models
 
 This folder contains the codes and models for our research papers on LongContext Post-Training.
 
