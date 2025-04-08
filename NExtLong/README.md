@@ -1,9 +1,7 @@
-# NExtLong: Toward Effective Long-Context Training without Long Documents
+## NExtLong: Toward Effective Long-Context Training without Long Documents
 
 This repository contains the code ,models and datasets for our paper [NExtLong: Toward Effective Long-Context Training without Long Documents](https://arxiv.org/pdf/2501.12766).
 
-## &#x1F389; Ranked 1st among LLMs under 10B
-<img width="1350" alt="image" src="https://github.com/user-attachments/assets/97909375-cef6-4ded-8bdb-d801693556e2" />
 
 
 ## Quick Links
@@ -39,7 +37,7 @@ Large language models (LLMs) with extended context windows have made significant
 
 ## NExtLong Models
 
-
+### Long-context Benchmarks
 Our released models are listed as follows. You can import these models by using [HuggingFace's Transformers](https://github.com/huggingface/transformers). All models are trained on long-context data synthesized by [fineweb-edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) and [Cosmopedia v2](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus).
 
 |              Model              |  Avg.  | Recall |  RAG  |  ICL  | Re-rank | LongQA |  RULER  |
@@ -56,6 +54,19 @@ We released our Instruct model, which is based on our Llama-3-8B-NExtLong-512K-B
 | [Llama-3-8B-NExtLong-512K-Instruct](https://huggingface.co/caskcsg/Llama-3-8B-NExtLong-512K-Instruct) + cot    | 32          | 36.5     | 29.3     | 37.2      | 31.2       | 25       |
 
 In addition, fine-tuning using the [ultrachat](https://huggingface.co/datasets/stingning/ultrachat) dataset can also yield good results, as we reported in Section 5.2 of the [NExtLong paper](https://arxiv.org/pdf/2501.12766).
+
+
+### Short-context Benchmarks
+
+
+
+| Model                      | AVG   | HellaSwag | Lambada_OpenAI | ARC-Challenge | ARC-Easy | PIQA  | WinoGrande | Logiqa | MMLU  |
+|----------------------------|-------|-----------|----------------|---------------|----------|-------|------------|--------|-------|
+| **Meta-Llama-3-8B-Instruct**   | 0.6332 | 0.5773    | 0.7171         | 0.5316        | 0.8165   | 0.7889 | 0.7198     | 0.2765 | 0.6376 |
+| **NextLong-Llama-3-8B-Instruct** | 0.6410 | 0.5953    | 0.7242         | 0.5188        | 0.8224   | 0.8079 | 0.7324     | 0.3041 | 0.6232 |
+
+Comparing with Meta-Llama-3-8B-Instruct, NextLong-Llama-3-8B-Instruct shows no degradation on the short-context benchmarks.
+
 
 <a id="NExtLong-datasets"></a>
 
