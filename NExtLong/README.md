@@ -60,10 +60,10 @@ In addition, fine-tuning using the [ultrachat](https://huggingface.co/datasets/s
 
 
 
-| Model                      | AVG   | HellaSwag | Lambada_OpenAI | ARC-Challenge | ARC-Easy | PIQA  | WinoGrande | Logiqa | MMLU  |
+| Model                      | Avg.   | Hel. | Lam. | AR-C. | AR-E. | PIQA  | Win. | Logiqa | MMLU  |
 |----------------------------|-------|-----------|----------------|---------------|----------|-------|------------|--------|-------|
-| **Meta-Llama-3-8B-Instruct**   | 0.6332 | 0.5773    | 0.7171         | 0.5316        | 0.8165   | 0.7889 | 0.7198     | 0.2765 | 0.6376 |
-| **NextLong-Llama-3-8B-Instruct** | 0.6410 | 0.5953    | 0.7242         | 0.5188        | 0.8224   | 0.8079 | 0.7324     | 0.3041 | 0.6232 |
+| [Meta-Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)   | 0.6332 | 0.5773    | 0.7171         | 0.5316        | 0.8165   | 0.7889 | 0.7198     | 0.2765 | 0.6376 |
+| [Llama-3-8B-NExtLong-512K-Instruct](https://huggingface.co/caskcsg/Llama-3-8B-NExtLong-512K-Instruct) | 0.6410 | 0.5953    | 0.7242         | 0.5188        | 0.8224   | 0.8079 | 0.7324     | 0.3041 | 0.6232 |
 
 Comparing with Meta-Llama-3-8B-Instruct, NextLong-Llama-3-8B-Instruct shows no degradation on the short-context benchmarks.
 
