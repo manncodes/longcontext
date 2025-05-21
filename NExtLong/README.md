@@ -38,7 +38,7 @@ Large language models (LLMs) with extended context windows have made significant
 ## NExtLong Models
 
 ### Long-context Benchmarks
-Our released models are listed as follows. You can import these models by using [HuggingFace's Transformers](https://github.com/huggingface/transformers). All models are trained on long-context data synthesized by [fineweb-edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) and [Cosmopedia v2](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus).
+Our released models are listed as follows. You can import these models by using [HuggingFace's Transformers](https://github.com/huggingface/transformers). All models are trained on long-context data synthesized by [Fineweb-edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) and [Cosmopedia v2](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus).
 
 |              Model              |  Avg.  | Recall |  RAG  |  ICL  | Re-rank | LongQA |  RULER  |
 |:-------------------------------|:-------:|:------:|:-----:|:-----:|:-------:|:------:|:-------:|
@@ -76,7 +76,7 @@ Comparing with Meta-Llama-3-8B-Instruct, NextLong-Llama-3-8B-Instruct shows no d
 
 ### Datasets list
 
-Our released datasets are listed as follows. All datasets are synthesized from the short-text datasets [fineweb-edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) and [Cosmopedia v2](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus).
+Our released datasets are listed as follows. All datasets are synthesized from the short-text datasets [Fineweb-edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) and [Cosmopedia v2](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus).
 
 
 
